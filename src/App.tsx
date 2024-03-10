@@ -1,11 +1,10 @@
+import Header from "./components/Header";
+import FirstScreen from "./components/FirstScreen";
 function App() {
   return (
     <>
-      <div className="dark:bg-slate-950">
-        <h1 className="text-red-900 dark:text-white text-3xl font-bold underline ">
-          Hello world!!
-        </h1>
-      </div>
+      <Header />
+      <FirstScreen />
     </>
   );
 }
